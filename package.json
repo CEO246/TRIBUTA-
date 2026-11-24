@@ -1,0 +1,13 @@
+{
+  "name": "tributa-core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Núcleo de Tributa: ingesta agnóstica de facturas (UBL DIAN, JSON canónico, ERPs), motor de impuestos colombianos y provisión por factura.",
+  "type": "module",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\"",
+    "start": "node src/api/server.ts"
+  },
+  "dependencies": { "fast-xml-parser": "^4.5.0" }
+}
